@@ -1,0 +1,357 @@
+.cotainer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+
+.main__container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+height: 500px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #FFF;
+gap: 10px;
+
+}
+.bill__div{
+    width: 350px;
+    height: 400px;
+    flex-shrink: 0;
+   
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    justify-content: center;
+    gap: -3px;
+ 
+}
+.calculator__div{
+    width: 406px;
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 15px; /* Use a single value for equal border radius on all corners */
+  background: #00474B;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.billtext{
+    color: #6B7777;
+    font-family: IBM Plex Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+    background-color:   #FFF;
+}
+.bill__inputbox{
+    border-radius: 10px;
+    background: #F3F8FB;
+    width: 280px;
+    height: 35px;
+    border: 1px solid #F3F8FB ;
+    color: #A9C3C6;
+font-family: IBM Plex Mono;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; 
+direction: rtl;
+outline: none;
+
+text-align: right;
+}
+
+ .bill__inputbox:focus {
+    border-radius: 10px;
+    border: 1px solid #26C2AD;
+    background: #F3F8FB;
+   .peoplecount{
+    border: 2px solid #B48372;
+   }
+}
+.peoplecountone{
+    border-radius: 10px;
+    background: #F3F8FB;
+    width: 280px;
+    height: 35px;
+    border: 2px solid #B48372;
+    direction: rtl;
+    color: #A9C3C6;
+    font-family: IBM Plex Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+    outline: none;
+    direction: rtl;
+outline: none;
+
+text-align: right;
+}
+
+.peoplecount{
+    border-radius: 10px;
+    background: #F3F8FB;
+    width: 280px;
+    height: 35px;
+    border: 1px solid #F3F8FB ;
+    direction: rtl;
+    color: #A9C3C6;
+    font-family: IBM Plex Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+    outline: none;
+}
+.option__tip{
+    background-color:   #FFF;
+    color: #6B7777;
+font-family: IBM Plex Mono;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+}
+.labal__peoplenumber{
+    color: #6B7777;
+font-family: IBM Plex Mono;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+background-color: #FFF;
+display: flex;
+gap: 54px;
+    position: relative;
+    top: 38px;
+
+}
+.tip__buttons{
+background-color: #FFF;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+.tip__perperson{
+    background: #00474B;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    width: 280px;
+}
+.Total__perperson{
+    background: #00474B;
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    gap: 145px;
+}
+span{
+    background: #00474B;
+    color: #FFF;
+font-family: IBM Plex Mono;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+}
+.resetbutton{
+    width: 280px;
+    height: 35px;
+flex-shrink: 0;
+border: 1px solid #0D686D ;
+border-radius: 10px;
+background: #0D686D;
+color: #004849;
+font-family: IBM Plex Mono;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; 
+text-transform: uppercase;
+}
+.resetbuttonn{
+    width: 280px;
+    height: 35px;
+flex-shrink: 0;
+border: 1px solid #0D686D ;
+border-radius: 10px;
+background: #9FE8DF;
+color: #004849;
+font-family: IBM Plex Mono;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; 
+text-transform: uppercase;
+}
+.price{
+    color: #21C3AC;
+font-family: IBM Plex Mono;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 50px; 
+
+}
+.person{
+    width: 38.344px;
+height: 19px;
+flex-shrink: 0;
+color: #649BA0;
+font-family: IBM Plex Mono;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+}
+.tipbutton{
+    border-radius: 10px;
+background: #00474B;
+border: 1px solid #00474B ;
+width: 93.33px;
+height: 35px;
+color: #FFF;
+font-family: IBM Plex Mono;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 83.333% */
+}
+.customtip::placeholder{
+    color: #00474B;
+}
+.customtip{
+    width: 93.33px;
+    background-color: #F3F8FB;;
+height: 35px;
+border: 1px solid #00474B ;
+border-radius: 10px;
+color: #00474B;
+font-family: IBM Plex Mono;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 83.333% */
+}
+
+.dollericon{
+    background-color: #F3F8FB;
+
+
+    position: relative;
+    bottom: -29px;
+    left: 8px;
+    width: fit-content;
+    color: #A9C3C6;
+font-family: IBM Plex Mono;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 90.909% */
+}
+.dollericone{
+    background-color: #F3F8FB;
+    position: relative;
+    bottom: -32px;
+    left: 6px;
+    width: fit-content;
+    color: #A9C3C6;
+font-family: IBM Plex Mono;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 90.909% */
+}
+svg{
+    background-color: #F3F8FB;
+}
+.zeromassage{
+    color: #B48372;
+font-family: IBM Plex Mono;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+background-color: #FFF;
+}
+@media screen and (max-width: 480px) {
+    *{
+        background: black;
+    }
+    .cotainer{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        height: 100vh;
+        background: black;
+    }
+    .main__container {
+        display: flex;
+        flex-direction: column;
+       
+     justify-content: center;
+     align-items: center;
+       
+        height:fit-content; 
+       
+        border-radius: 15px;
+        background: black;
+        gap: 10px;
+    }
+    .bill__div{
+        width: 350px;
+        height: 430px;
+        flex-shrink: 0;
+        margin-top: 160px;
+        background: #FFF;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        gap: -3px;
+     
+    }
+    .calculator__div{
+        width: 350px;
+        height: 330px;
+    }
+    .tip__buttons{
+        background-color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    }
+    .dollericon{
+        background-color: #F3F8FB;
+    position: relative;
+    bottom: -29px;
+    left: -132px;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #A9C3C6;
+    font-family: IBM Plex Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    }
+    .dollericone{
+        
+        left: -130px;
+    }
+}
